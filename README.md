@@ -1,6 +1,6 @@
 # FunctionalParser
 
-TODO: Write a gem description
+Yet another functional library for text-parsing by Ruby.
 
 ## Installation
 
@@ -20,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'functional_parser'
+
+P = FunctionalParser
+p P.many(P.identifier).parse("hoge fuga piyo")
+#=> #<OptParser::Parser::Succeeded:0x007f86277d0a00 @parsed=["hoge", "fuga", "piyo"], @rest="">
+```
+
 
 ## Contributing
 
