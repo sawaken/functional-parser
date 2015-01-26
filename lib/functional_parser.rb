@@ -69,9 +69,9 @@ class FunctionalParser
     }
   end
 
-  def append(parser1, parser2)
+  def self.append(parser1, parser2)
     parser1 >> proc{|x|
-      parer2 >> proc{|y|
+      parser2 >> proc{|y|
         ret(x + y)
       }
     }
