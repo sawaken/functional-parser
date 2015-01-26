@@ -25,7 +25,7 @@ require 'functional_parser'
 
 P = FunctionalParser
 p P.many(P.identifier).parse("hoge fuga piyo")
-#=> #<OptParser::Parser::Succeeded:0x007f86277d0a00 @parsed=["hoge", "fuga", "piyo"], @rest="">
+#=> #<FunctionalParser::Succeeded:0x007f86277d0a00 @parsed=["hoge", "fuga", "piyo"], @rest="">
 ```
 
 
