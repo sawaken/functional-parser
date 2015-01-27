@@ -1,6 +1,6 @@
 # FunctionalParser
 
-Yet another functional library for text-parsing by Ruby.
+Yet another functional text-parsing library by Ruby.
 
 ## Installation
 
